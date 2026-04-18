@@ -1,0 +1,84 @@
+# =========================
+
+# OS / System
+
+# =========================
+
+.DS_Store
+Thumbs.db
+
+# =========================
+
+# Python (Backend)
+
+# =========================
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+
+# Environment variables
+
+.env
+.env.*
+
+# Logs
+
+*.log
+
+# PyCharm / VSCode
+
+.idea/
+.vscode/
+
+# =========================
+
+# Node / Frontend (Vite)
+
+# =========================
+
+node_modules/
+dist/
+build/
+.cache/
+
+# Vite env files (optional, if you use them)
+
+frontend/.env
+frontend/.env.*
+
+# =========================
+
+# Database / local files
+
+# =========================
+
+*.sqlite3
+*.db
+
+# =========================
+
+# Testing / coverage
+
+# =========================
+
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+
+# Misc
+
+# =========================
+
+*.swp
+*.swo
